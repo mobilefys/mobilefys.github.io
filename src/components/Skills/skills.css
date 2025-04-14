@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Qager';
+    src: local('Qager'), url(../../fonts/Qager.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+:root {
+    --background-beige: rgba(228, 218, 196, 1);
+    --black: rgba(0, 0, 0, 1);
+    --green: rgba(66, 148, 80, 1);
+    --iossafaribars-background-light: rgba(248, 248, 248, 0.88);
+    --navy-accent: rgba(0, 0, 0, 1);
+    --red-accent: rgba(148, 17, 32, 1);
+    --teal-accent: rgba(62, 141, 144, 1);
+    --white: rgba(255, 255, 255, 1);
+  }
+
+  .iphone3 {
+    background-color: #e4dac4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .iphone3 .div {
+    background-color: #e4dac4;
+    height: 852px;
+    position: relative;
+    width: 393px;
+  }
+  
+  .iphone3 .text-wrapper {
+    color: #941120;
+    font-family: "qager", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    left: 127px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 436px;
+    white-space: nowrap;
+  }
+  
+  .iphone3 .tab {
+    align-items: center;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    left: 35px;
+    position: absolute;
+    top: 60px;
+    width: 323px;
+  }
+  
+  .iphone3 .text-wrapper-2 {
+    color: #941120;
+    font-family: "qager", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .iphone3 .text-wrapper-3 {
+    color: #182c4b;
+    font-family: "qager", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    height: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: 118px;
+  }
+  
+  .iphone3 .hangout {
+    height: 45px;
+    left: 37px;
+    position: absolute;
+    top: 695px;
+    width: 326px;
+  }
+  
+  .iphone3 .self-care {
+    height: 45px;
+    left: 37px;
+    position: absolute;
+    top: 644px;
+    width: 326px;
+  }
+  
+  .iphone3 .self-drive {
+    height: 45px;
+    left: 37px;
+    position: absolute;
+    top: 540px;
+    width: 326px;
+  }
+  
+  .iphone3 .learning {
+    height: 45px;
+    left: 37px;
+    position: absolute;
+    top: 592px;
+    width: 326px;
+  }
+  
+  .iphone3 .networking {
+    height: 46px;
+    left: 36px;
+    position: absolute;
+    top: 488px;
+    width: 326px;
+  }
+  
+  .iphone3 .group {
+    height: 68px;
+    left: 162px;
+    position: absolute;
+    top: 767px;
+    width: 68px;
+  }
+  
+  .iphone3 .overlap-group {
+    height: 209px;
+    left: 97px;
+    position: absolute;
+    top: 190px;
+    width: 252px;
+  }
+  
+  .iphone3 .CLOTHES-bttn {
+    height: 61px;
+    left: 194px;
+    position: absolute;
+    top: 148px;
+    width: 58px;
+  }
+  
+  .iphone3 .img {
+    height: 161px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 194px;
+  }
+  
