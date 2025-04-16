@@ -29,7 +29,7 @@ const location = useLocation();
           element: <WrapperPage element={
             <div className="missions-quest-main2">
       <div className="div">
-      <Link to="/"><img className="group" alt="Group" src={group146} /></Link>
+      <Link to="/map"><img className="group" alt="Group" src={group146} /></Link>
 
         <div className="overlap">
           <img
@@ -42,11 +42,11 @@ const location = useLocation();
         </div>
 
         <div className="overlap-group">
-          <Link to="/map"><img
+          <img
             className="middle-scotty"
             alt="Middle scotty"
             src={middleScotty}
-          /></Link>
+          />
 
           <div className="overlap-group-2">
           <Link to="/skills"><img className="img" alt="Profile button" src={profileButton} /></Link>
