@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.699a1eef.css",
-    "main.js": "/static/js/main.46656f2f.js",
+    "main.css": "/static/css/main.5c397833.css",
+    "main.js": "/static/js/main.4fd4e060.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/tartan-bg.png": "/static/media/tartan-bg.489feb82c6662f70ce35.png",
     "static/media/timeline.png": "/static/media/timeline.026ea8d59c51e3a288df.png",
@@ -11,6 +11,7 @@
     "static/media/selfcare_scroll.png": "/static/media/selfcare_scroll.b14777eb5775f9a50363.png",
     "static/media/profile-button.png": "/static/media/profile-button.8f41e87191d0cb880cca.png",
     "static/media/middle-scotty.png": "/static/media/middle-scotty.295f35dc7bba003207e3.png",
+    "static/media/quest-box-complete.png": "/static/media/quest-box-complete.a7a5abe68646a0b34470.png",
     "static/media/social-button.png": "/static/media/social-button.ad9060edc833f35ad74e.png",
     "static/media/homebutton.png": "/static/media/homebutton.62b913ca20b308a92584.png",
     "static/media/group-146.png": "/static/media/group-146.5df362c3217362df4649.png",
@@ -18,12 +19,12 @@
     "static/media/scottyDogLeft.png": "/static/media/scottyDogLeft.c683adb23c76dac69168.png",
     "static/media/Qager.ttf": "/static/media/Qager.ed0d1969a6cdecf58724.ttf",
     "index.html": "/index.html",
-    "main.699a1eef.css.map": "/static/css/main.699a1eef.css.map",
-    "main.46656f2f.js.map": "/static/js/main.46656f2f.js.map",
+    "main.5c397833.css.map": "/static/css/main.5c397833.css.map",
+    "main.4fd4e060.js.map": "/static/js/main.4fd4e060.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.699a1eef.css",
-    "static/js/main.46656f2f.js"
+    "static/css/main.5c397833.css",
+    "static/js/main.4fd4e060.js"
   ]
 }
