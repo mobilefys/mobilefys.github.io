@@ -52,7 +52,7 @@ const app = initializeApp(firebaseConfig);
 function MapScreen() {
 
 let api_loaded = false;
-let building = "Hunt Library";
+let building = "Merson Courtyard";
 const [arrived, setArrived] = useState(false);
 
 const MapComponent = () => {
@@ -63,7 +63,7 @@ const MapComponent = () => {
   const LocationMarker = () => {
     const map = useMap();
     const [marker, setMarker] = useState(<></>);   
-    
+    const [currPosition, setCurrPosition] = useState(null);
 
     useEffect(() => {
       if (!map || !window.google) return;
@@ -80,9 +80,24 @@ const MapComponent = () => {
             };
 
             map.setCenter(pos);
-            setMarker(<AdvancedMarker position={pos}>
-              <img src={require("./images/tracker.png")} width={60} height={60} />
-            </AdvancedMarker>);
+
+            if (currPosition == null || window.google.maps.geometry.spherical
+              .computeDistanceBetween(currPosition,pos) > 10)
+            {
+              setCurrPosition(pos);
+
+            }
+            
+
+            if (currPosition != null)
+            {
+                setMarker(<AdvancedMarker position={currPosition}>
+                  <img src={require("./images/tracker.png")} width={60} height={60} />
+                </AdvancedMarker>);
+            } 
+                
+             
+
 
             const directionsService = new window.google.maps.DirectionsService();
 
@@ -107,12 +122,10 @@ const MapComponent = () => {
                   const start =  {lat:leg.start_location.lat(), lng:leg.start_location.lng()};
                   const end =  {lat:leg.end_location.lat(), lng:leg.end_location.lng()};
 
-                  console.log( window.google.maps.geometry.spherical
-                    .computeDistanceBetween(start,end));
 
 
                   if ( window.google.maps.geometry.spherical
-                    .computeDistanceBetween(start,end)<40)
+                    .computeDistanceBetween(start,end)<20)
                     {
                       directionsRenderer.setMap(null);
                       setArrived(true);
@@ -137,7 +150,7 @@ const MapComponent = () => {
         );
       }
     
-    }, [map]);
+    }, [map, currPosition]);
     return marker;
   }
 
